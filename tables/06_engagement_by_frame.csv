@@ -1,0 +1,13 @@
+﻿platform,frame,n,mean_likes,median_likes,mean_replies,median_replies,mean_total_eng,median_total_eng,n_top10pct,pct_top10pct
+Instagram,golf,951,19.03,0.0,1.17,0.0,20.0,0.0,110,11.6
+Instagram,hybrid,445,24.69,0.0,0.27,0.0,24.91,0.0,66,14.8
+Instagram,neutral,9078,9.06,0.0,0.18,0.0,9.2,0.0,802,8.8
+Instagram,political,1175,13.66,0.0,0.36,0.0,13.92,0.0,172,14.6
+X,golf,155,34.95,3.0,1.1,0.0,36.05,3.0,28,18.1
+X,hybrid,78,82.12,1.0,1.82,0.0,83.94,1.5,11,14.1
+X,neutral,529,19.2,1.0,0.91,0.0,20.11,1.0,36,6.8
+X,political,83,35.92,1.0,1.82,0.0,37.73,1.0,10,12.0
+YouTube,golf,6584,21.04,0.0,0.53,0.0,21.58,1.0,728,11.1
+YouTube,hybrid,7435,30.14,1.0,0.79,0.0,30.93,1.0,1057,14.2
+YouTube,neutral,20660,6.74,0.0,0.16,0.0,6.9,0.0,1539,7.4
+YouTube,political,10939,12.68,0.0,0.4,0.0,13.08,1.0,1100,10.1

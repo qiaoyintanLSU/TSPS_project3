@@ -1,0 +1,95 @@
+# ════════════════════════════════════════════════════════════════════════════
+# .gitignore — B50 Cross-Platform Comment Analysis Project
+# KIN 7518 Social Issues in Sport
+#
+# RULE: Raw social-media data and any file containing row-level comment
+#       text or usernames must NEVER be committed to this repository.
+# ════════════════════════════════════════════════════════════════════════════
+
+# ── RAW DATA (never publish) ─────────────────────────────────────────────────
+data/raw/
+!data/raw/.gitkeep
+
+# ── ROW-LEVEL CLEANED DATA (contains comment text and usernames) ─────────────
+data/cleaned/B50_unified_comments.csv
+data/cleaned/B50_classified_comments.csv
+
+# Catch-all: any CSV in data/ that might contain row-level records
+# Safe aggregated tables live in tables/ — those ARE committed.
+data/**/*.csv
+
+# Log files (re-generated on each run; not sensitive but not useful to share)
+data/cleaned/*.txt
+tables/stats_log.txt
+# Exception: the keyword codebook is safe to share — see codebook/ folder
+
+# Root-level plan duplicates (canonical copies live in docs/)
+/P3_PLAN_REVISED.md
+/P3_PLAN_TSPS.md
+
+# Scratch output files
+t08.txt
+git_dryrun.txt
+git_ignored.txt
+
+# ── EXCEL / SPREADSHEET RAW FILES ───────────────────────────────────────────
+*.xlsx
+*.xls
+*.xlsm
+
+# ── PYTHON ENVIRONMENT AND CACHE ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ── JUPYTER NOTEBOOKS ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS AND EDITOR JUNK ───────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ── TEMPORARY AND SCRATCH FILES ──────────────────────────────────────────────
+tmp/
+scratch/
+*.tmp
+*.bak
+*.log
+pipeline_run.log
+viz_error.txt
+viz_out.txt
+methods_out.txt
+inspect_output.txt
+colnames.txt
+samplevals.txt
+filelist.txt
+cols.json
+summary.txt
+
+# ── SENSITIVE OR PERSONALLY IDENTIFIABLE FIELDS ──────────────────────────────
+# If any file contains a 'user', 'username', or 'userid' column at row level,
+# it must not be committed. This is enforced by the data/ exclusion above.

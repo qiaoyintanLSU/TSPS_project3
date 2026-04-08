@@ -1,0 +1,174 @@
+B50 KEYWORD CODEBOOK
+============================================================
+
+GOLF LEXICON
+----------------------------------------
+  albatross
+  augusta
+  backswing
+  birdie
+  bogey
+  bogey
+  break 50
+  break50
+  bryson
+  bunker
+  caddie
+  chip
+  chipping
+  course
+  dechambeau
+  divot
+  driver
+  eagle
+  fairway
+  follow-through
+  golf
+  golf club
+  golf course
+  golfer
+  golfing
+  green
+  handicap
+  hole in one
+  hole-in-one
+  iron
+  liv
+  liv golf
+  lpga
+  masters
+  par
+  pga
+  putt
+  putting
+  round of golf
+  ryder cup
+  sand trap
+  scorecard
+  stroke
+  strokes gained
+  swing
+  tee
+  tee box
+  wedge
+
+Total terms: 48
+
+POLITICAL LEXICON
+----------------------------------------
+  america first
+  anti-trump
+  biden
+  campaign
+  capitalism
+  conservative
+  deep state
+  democrat
+  dnc
+  donald trump
+  election
+  gop
+  left wing
+  left-wing
+  liberal
+  maga
+  maga hat
+  make america great
+  partisan
+  patriot
+  patriotic
+  political
+  politics
+  potus
+  president
+  president trump
+  pro-trump
+  progressive
+  republican
+  right wing
+  right-wing
+  rnc
+  socialism
+  trump
+  trump hater
+  trump supporter
+  vote
+  white house
+  woke
+
+Total terms: 39
+
+SUPPORTIVE LEXICON
+----------------------------------------
+  God bless
+  amazing
+  awesome
+  bipartisan
+  brings people together
+  charitable
+  charity
+  donate
+  donation
+  fantastic
+  giving back
+  god bless america
+  good cause
+  great cause
+  honor
+  honour
+  iconic
+  incredible
+  inspiring
+  just golf
+  keep it golf
+  legend
+  love this
+  military
+  not political
+  only golf
+  respect
+  so cool
+  support our troops
+  troops
+  unity
+  veteran
+  veterans
+  wounded warrior
+
+Total terms: 34
+
+RESISTANT LEXICON
+----------------------------------------
+  absurd
+  boycott
+  disappointed
+  disgusting
+  dislike
+  don't mix politics
+  done watching
+  embarrassing
+  horrible
+  just play golf
+  keep politics out
+  lost a subscriber
+  lost my subscription
+  not the place for politics
+  pathetic
+  ridiculous
+  sell out
+  sellout
+  shame
+  shameful
+  shouldn't be political
+  stay out of politics
+  stop watching
+  terrible
+  trash
+  unfollowed
+  unfollowing
+  unsubscribe
+  unsubscribed
+  wrong
+
+Total terms: 30
+
