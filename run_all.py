@@ -1,7 +1,7 @@
 """
 run_all.py  — Master pipeline runner
 ======================================
-Runs all five analysis scripts in the correct order.
+Runs all six analysis scripts in the correct order.
 Usage:  python run_all.py
 """
 import subprocess, sys, pathlib
@@ -12,6 +12,7 @@ SCRIPTS = [
     "scripts/03_descriptive_stats.py",
     "scripts/04_visualize.py",
     "scripts/05_methods_summary.py",
+    "scripts/06_temporal_analysis.py",
 ]
 
 BASE = pathlib.Path(__file__).resolve().parent
@@ -24,3 +25,4 @@ for script in SCRIPTS:
         sys.exit(result.returncode)
 
 print("\n✓ Full pipeline complete. Check data/cleaned/, tables/, figures/, and docs/.")
+print("  New: figures/fig4_temporal_volume.png — comment volume over time by platform.")

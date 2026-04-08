@@ -162,14 +162,28 @@ def classify_text(text: str) -> dict:
     """
     Apply all four binary indicators to a single comment string.
     Returns a dict of 0/1 values.
+
+    Golf-context override: if the only political hit is 'trump' and the
+    comment is already golf-framed, suppress the political indicator to
+    avoid misclassifying descriptive golf mentions of Trump as political.
     """
     if not isinstance(text, str) or text.strip() == "":
         return {"golf_ind": 0, "political_ind": 0, "supportive_ind": 0, "resistant_ind": 0}
+
+    golf_hit = 1 if GOLF_PAT.search(text) else 0
+
+    # Check political hits; suppress if the only match is 'trump' in a golf context
+    political_matches = set(m.group(0).lower() for m in POLITICAL_PAT.finditer(text))
+    if political_matches == {"trump"} and golf_hit:
+        political_hit = 0  # likely a descriptive golf mention, not a political signal
+    else:
+        political_hit = 1 if political_matches else 0
+
     return {
-        "golf_ind":       1 if GOLF_PAT.search(text)      else 0,
-        "political_ind":  1 if POLITICAL_PAT.search(text) else 0,
-        "supportive_ind": 1 if SUPPORT_PAT.search(text)   else 0,
-        "resistant_ind":  1 if RESIST_PAT.search(text)    else 0,
+        "golf_ind":       golf_hit,
+        "political_ind":  political_hit,
+        "supportive_ind": 1 if SUPPORT_PAT.search(text) else 0,
+        "resistant_ind":  1 if RESIST_PAT.search(text)  else 0,
     }
 
 
