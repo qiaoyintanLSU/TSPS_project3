@@ -26,6 +26,22 @@ The project addresses three research questions:
 | **RQ2** | Which framing receives the strongest within-platform social validation (likes and replies)? |
 | **RQ3** | What rhetorical strategies do commenters use to normalize or resist the presence of Trump and politics in a golf-media context? |
 
+### Preliminary Figures
+
+> **Exploratory only.** All figures below reflect first-pass lexicon classification and have not yet passed manual inter-rater validation. Interpret with appropriate caution.
+
+**Figure 1 — Frame distribution by platform (RQ1).**
+
+![Frame distribution by platform](figures/fig1_frame_by_platform.png)
+
+**Figure 2 — Within-platform engagement by frame (RQ2).**
+
+![Within-platform engagement by frame](figures/fig2_engagement_by_frame.png)
+
+**Figure 3 — Supportive vs. resistant keyword frequencies (RQ3).**
+
+![Supportive vs. resistant keywords](figures/fig3_keyword_bar.png)
+
 ---
 
 ## Repository Structure
@@ -89,8 +105,8 @@ project-root/
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/<your-org>/b50-comment-analysis.git
-cd b50-comment-analysis
+git clone https://github.com/qiaoyintanLSU/TSPS_project3.git
+cd TSPS_project3
 ```
 
 ### 3. Install dependencies
